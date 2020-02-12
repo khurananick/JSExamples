@@ -1,3 +1,8 @@
+// To run the script as is:
+// > node hoover.js
+// To run a test:
+// > node hoover.js test
+
 let test;
 for(var index in process.argv) {
   if(process.argv[index] == "test") test = true;
